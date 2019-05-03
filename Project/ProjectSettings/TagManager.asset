@@ -12,6 +12,8 @@ TagManager:
   - Wall
   - BackGround
   - Bar
+  - BlockSquare
+  - BlockHexagon
   layers:
   - Default
   - TransparentFX
@@ -25,8 +27,8 @@ TagManager:
   - BackGround
   - Bar
   - Player
-  - 
-  - 
+  - BlockSquare
+  - BlockHexagon
   - 
   - 
   - 
