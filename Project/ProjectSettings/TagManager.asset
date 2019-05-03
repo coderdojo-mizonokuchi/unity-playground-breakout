@@ -9,6 +9,11 @@ TagManager:
   - Bullet
   - Ground
   - Pickup
+  - Wall
+  - BackGround
+  - Bar
+  - BlockSquare
+  - BlockHexagon
   layers:
   - Default
   - TransparentFX
@@ -18,12 +23,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - BackGround
+  - Bar
+  - Player
+  - BlockSquare
+  - BlockHexagon
   - 
   - 
   - 

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 16
-  productGUID: 00000000000000000000000000000000
+  productGUID: 2b35c7eff6f443b49add14c51ca9624e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -587,7 +587,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: GAMEOBJECT_HEADER;DEFAULT_INSPECTORS;CUSTOM_INSPECTORS
+    1: 
   platformArchitecture:
     iPhone: 2
   scriptingBackend:
