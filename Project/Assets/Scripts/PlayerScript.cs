@@ -7,8 +7,8 @@ public class PlayerScript : MonoBehaviour
     private Vector2 initialPosition = new Vector2(0f, -7f);
     private Vector2 initialForce = new Vector2(50f, 50f);
     private Rigidbody2D rigidbody = null;
-    private float velocityMin = 100f;
-    private float velocityNow = 100f;
+    private float velocityMin = 10f;
+    private float velocityNow = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,11 @@ public class PlayerScript : MonoBehaviour
             rigidbody.velocity = new Vector2(rigidbody.velocity.x * 1.01f, rigidbody.velocity.y);
         }
         velocityNow *= 1.0001f;
-        rigidbody.velocity *= velocityNow / rigidbody.velocity.SqrMagnitude();
+        float magnitude = rigidbody.velocity.magnitude;
+        if (magnitude > 0f)
+        {
+            rigidbody.velocity *= velocityNow / magnitude;
+        }
     }
 
     public void ResetPlayer()
